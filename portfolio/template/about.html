@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    {% load static %}
+    <link rel="shortcut icon" type="x-icon" href="{% static 'images/abouticon.png'%}">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-...." crossorigin="anonymous" />
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/about.css' %}">
+</head>
+<body>
+    <nav class="navbar navbar-dark bg-dark fixed-top" class="navbar">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <!-- Collapsible Content -->
+            <div class="collapse fixed-start" id="navbarToggleExternalContent" data-bs-theme="dark">
+                <div class="bg-dark p-4">
+                    <h5 class="text-body-emphasis h4">Hii,Welcome To The Page</h5>
+                    <!--<span class="text-body-secondary">Toggleable via the navbar brand.</span>-->
+                    
+                    <!-- Navigation Links -->
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a class="nav-link" href="{% url 'landingpage'%}">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="{% url 'resume' %}">Resume</a></li>
+                        <li class="nav-item"><a class="nav-link" href="{% url 'hire' %}">Contact</a></li>
+                      
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="divs">
+    <h1 id="ab">About:</h1>
+    <br>
+    This Page is all About the the languages used for the development of this application.
+    <br>
+    1.This is a Django Project(so , Django Framework were used)
+    <br>
+    2.Backend Programming is Python language(Simple logics were used).
+    <br>
+    3.The Front end technologies i used  a. HTML5  b.  CSS   c. BOOTSTRAP framework
+    <br>
+  
+    4.All Packages were installed in virtual environment the given folder name is myenv
+    <br>
+    <br>
+    <br>
+    <h4>Platform:</h4>
+    1.Platform used for coding or development of the project is VsCode
+    <br>
+    <nbsp></nbsp> a.Terminals used for entering some commands is: a.powershell b.commandprompt
+    <h4>CONTENTS:</h4>
+    <ul>
+        <li>First page is a introduction page called as home page</li>
+        <li>Second Page is a About page it is about how this application developed and contents etc.,</li>
+        <li>Third Page is resume Page in which you can download my resume and you can also see the resume template in that webpage</li>
+        <li>Fourth Page is contact me it has my contact through social media and phonenumber and email Id</li>
+    </ul>
+    <h5>Backend techology used:</h5>
+    <ul>
+        <li>
+            In the backend Process i just used python programming and default database of Django DBSQLITE3 and Django Framework
+        </li>
+        <li>In the contact webpage it will take the all  data when user enter and it will store in the dbsqlite3</li>
+        <li>By using the object relational mapping or object oreinted code i created the database to store the this is the advantage of the Django</li>
+        <li>By this project we get to know that the django is based on the MVT architecture</li>
+    </ul>
+</div>
+   
+   <div class="div1"></div>
+   <div class="down-div">
+    <ul class="ul-div">
+        <li>
+            Follow me on
+            
+            <a href="https://www.linkedin.com/in/n-hari-krishna-454b7616b/" target="_blank" title="LinkedIn">
+                <i class="fab fa-linkedin fa-2x"></i>
+            </a>
+        </li>
+       <br>
+      
+       
+        <li>
+            DESIGNED AND DEVELOPED BY HARIKRISHNA NAKKA
+        </li>
+        <br>
+        <li>
+            ©2023 Myportfolio, Inc.
+        </li>
+        <li>
+            All rights reserved. 
+        </li>
+    </ul>
+
+</div>
+    <script src="https://code.jquery.com/jquery-3.6.4.slim.min.js" integrity="sha384-H3gJXGfA3MWqD4uPdtp8PbNE4Vl6FO8G1s2LO9v7b3zIHpzN8+cblHgZbbS2ZBD6" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-W3ZQsJqpbSsP+MH1FoD9FntI5Lv6YHsKeh+7tGrmS/NR6hAAeAeI9zUeY+3pqNX" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    
+</body>
+</html>

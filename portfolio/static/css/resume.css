@@ -1,0 +1,304 @@
+.div
+{
+    background-image: url('../images/resumes.jpg');
+    float: left;
+    margin-top: 50px;
+    width: 100%;
+    height: 300px;
+}
+html,body{
+    height: 230%;
+}
+.inner-div
+{
+    background-image: url('../images/myphoto.jpg');
+    width:170px;
+    height:170px;
+    margin-left: 500px;
+    margin-top:12px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+}
+.h5
+{
+    margin-top: 15px;
+    margin-left: 500px;
+}
+.h6
+{
+    margin-top: -18px;
+    margin-left: 460px;
+}
+.d-grid.gap-2.d-md-block {
+    margin-left: 505px; /* Use a negative value to move it to the left */
+}
+.outer-div
+{
+    width: 800px;
+    height: 300px;
+    background-color: whitesmoke;
+    float: left;
+    margin-left: 200px;
+    margin-top: 30px;
+    box-shadow: black;
+}
+.inside1
+{
+    width: 400px;
+    height:300px;
+    float: left;
+    background-color: whitesmoke;
+}
+.inside2
+{
+    width:400px;
+    height: 300px;
+    float: right;
+    background-color: whitesmoke;
+
+}
+.outerone
+{
+    width: 800px;
+    height: 300px;
+    background-color: whitesmoke;
+    float: left;
+    margin-top: 60px;
+    margin-left: 200px;
+}
+.prof
+{
+    margin-top: 5px;
+}
+.slidecontainer {
+    width: 100%;
+    margin-top: 10px;
+  }
+  
+  .slider {
+    -webkit-appearance: none;
+    width: 30%;
+    height: 15px;
+    border-radius: 5px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+  }
+  
+  .slider:hover {
+    opacity: 1;
+  }
+  
+  .slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #04AA6D;
+    cursor: pointer;
+  }
+  
+  .slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #04AA6D;
+    cursor: pointer;
+  }
+  
+  
+  #ul
+  {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    margin-top: 5px;
+  }
+  .list
+  {
+    margin-top: 20px;
+    margin-left: 300px;
+  }
+  .figurediv
+  {
+    width:1000px;
+    height: 400px;
+    background-color: white;
+    float: left;
+    margin-left:110px;
+    margin-top:50px;
+    
+  }
+  .img
+  {
+    width: 480px;
+    height: 200px;
+    margin-left: 10px;
+  }
+  .work-div
+  {
+    width:1000px;
+    height: 400px;
+    margin-left: 100px;
+    float: left;
+    margin-top:40px;
+   
+  }
+  .work-inner
+  {
+    float: left;
+    width:300px;
+    background-color: #04AA6D;
+    height: 358px;
+    margin-top: 10px;
+
+  }
+  .work-outer
+  {
+    float: right;
+    width: 700px;
+    background-color: antiquewhite;
+    height: 358px;
+    margin-top: 10px;
+  }
+#work-head
+{
+  margin-top:1000px;
+}
+pre{
+  color: white;
+  margin-top: 180px;
+  margin-left:30px;
+  font-size: 18px;
+  
+}
+#ptag
+{
+  color: white;
+}
+.ul
+{
+  list-style-type: none;
+  margin-top: 100px;
+}
+.edu-one
+{
+    float: left;
+    width:300px;
+    background-color: #04AA6D;
+    height: 150px;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+.edu-div
+{
+  
+ float: left;
+ margin-top: 10px;
+}
+.edu-inner
+{
+  width: 700px;
+  height:150px;
+  background-color: aliceblue;
+  float: left;
+  margin-top: 50px;
+}
+.edu-two
+{
+  float: left;
+    width:300px;
+    background-color: #04AA6D;
+    height: 150px;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+.edu-twoinner
+{
+  width: 700px;
+  height:150px;
+  background-color: aliceblue;
+  float: left;
+  margin-top: 50px;
+
+}
+.edu-three
+{
+  float: left;
+    width:300px;
+    background-color: #04AA6D;
+    height: 150px;
+    margin-top: 50px;
+    margin-left: 100px;
+
+}
+.edu-threeinner
+{
+  width: 700px;
+  height:150px;
+  background-color: aliceblue;
+  float: left;
+  margin-top: 50px;
+
+}
+.pre1
+{
+  margin-left:10px;
+  margin-top: -5px;
+}
+.drop
+{
+  margin-top:40px;
+  list-style-type:none;
+  color: white;
+}
+.dropone
+{
+  margin-top:40px;
+  list-style-type:none;
+  color: white;
+
+}
+.droptwo
+{
+  margin-top:40px;
+  list-style-type:none;
+  color: white;
+
+}
+.edu-ul1
+{
+  margin-top:40px;
+}
+.edu-ul2
+{
+  margin-top:40px;
+}
+.edu-ul3
+{
+  margin-top:40px;
+}
+.down-div
+{
+  background-color: black;
+  height:300px;
+  width: 100%;
+  float: left;
+  margin-top: 150px;
+}
+.ul-div
+{
+  color:white;
+  margin-left:360px;
+  margin-top:100px;
+}
+.custom-button-container {
+  margin-left: 300px; /* Adjust this value as needed */
+}
+.navbar-nav .nav-item a:active {
+  color: red; /* Change to your desired color */
+}

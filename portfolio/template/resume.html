@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    {% load static %}
+    <link rel="shortcut icon" type="x-icon" href="{% static 'images/resumeicon.png'%}">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Page</title>
+    {% load static %}
+     <!--Bootstrap CDN-->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-...." crossorigin="anonymous" />
+
+     <link rel="stylesheet" href="{% static 'css/resume.css' %}">
+     
+</head>
+<body>
+    <nav class="navbar navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <!-- Collapsible Content -->
+            <div class="collapse fixed-start" id="navbarToggleExternalContent" data-bs-theme="dark">
+                <div class="bg-dark p-4">
+                    <h5 class="text-body-emphasis h4">Hii,Welcome To The Page</h5>
+                    <!--<span class="text-body-secondary">Toggleable via the navbar brand.</span>-->
+                    
+                    <!-- Navigation Links -->
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a class="nav-link" href="{% url 'landingpage'%}">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="{% url 'about' %}">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="{% url 'hire' %}">Contact</a></li>
+                      
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="div">
+        <div class="inner-div">
+            
+
+        </div>
+        <h4 class="h5">HariKrishna Nakka</h4>
+        <br>
+        <h6 class="h6">Django,python,Html,Css Developer</h6>
+        <div class="d-grid gap-2 d-md-block">
+            <a class="btn btn-primary" href="{% static 'pdf/Harikrishna updated resume.pdf' %}" download="Harikrishna updated resume.pdf">Download CV</a>
+            <!--<button class="btn btn-primary" type="button">Download CV</button>-->
+          </div>
+
+    </div>
+    <div class="outer-div">
+        <div class="inside1">
+            <h4>About:</h4>
+            Hello my name, is Harikrishna  being a mechanical engineering graduate due to lack of interest i came to the software field in that process i grabbed a good oppurtunity of apprenticeship role in blueyonder and looking for the permanent position.
+            <br>
+            <br>
+            <br>
+            This portfolio completely about my profile and my experience and education
+        </div>
+        <div class="inside2">
+            <h4>Basic information:</h4>
+            <br>
+            <h6>Age:23</h6>
+            <br>
+            
+            <h6>Email:Krishnaharin890@gmail.com</h6>
+            <br>
+            
+            <h6>PHONE:9515269260</h6>
+            <br>
+           <h6>Address:janpak,adarshnagar,warangal TS</h6>
+           <br>
+           <h6>language:English,Telugu,Hindi</h6>
+        </div>
+       
+
+    </div>
+    
+    <div class="outerone">
+        <h4 class="prof">Professional Skills:</h4>
+
+        <ul id="ul">
+            <li class="list">HTML5</li>
+            <li class="list">CSS</li>
+            <li class="list">JAVASCRIPT</li>
+            <li class="list">DJANGO</li>
+            <li class="list">PYTHON</li>
+        </ul>
+  
+    </div>
+
+    <div class="figurediv">
+        <img src="{% static 'images/figure1.jpg' %}" class="img">
+        <img src="{% static 'images/figure2.jpg' %}" class="img">
+        <img src="{% static 'images/figure3.jpg' %}" class="img" id="imgs">
+        <img src="{% static 'images/figure4.jpg' %}" class="img" id="omg">
+
+    </div>
+    
+   <div class="work-div">
+    <center>
+    <h5>
+        WORK EXPERIENCE:
+    </h5>
+</center>
+    
+    <div class="work-inner">
+      
+    <pre>Blueyonder
+MARCH 2023 - PRESENT</pre>
+    </div>
+    <div class="work-outer">
+        <br>
+        <h5>SOFTWARE APPRENTICE:</h5>
+        <p>
+            <ul>
+                <li>
+                    Worked on the development project but with the support team 
+                </li>
+                <li>
+                    Interacted with the team and taking some support for completing the tasks 
+                </li>
+                <li>
+                    learned new things while doing the project like taking the requirements,assuming the design of the application and developing the application
+                </li>
+                <li>
+                    With this apprenticeship oppurtunity i got involved in the realtime SDLC cycle in the development
+                </li>
+                <li>
+                    Got interacted with the realtime project and learned new skills throughout the apprenticeship
+                </li>
+                <li>
+                    learned to how to debug the application code 
+                </li>
+                <li>
+                    Team supported me while doing the projects and i also explored and learned new things while making the project
+                </li>
+            </ul>
+        </p>
+    </div>
+   </div>
+
+   <div class="edu-div">
+    <center>
+    <h5>
+        EDUCATION:
+    </h5>
+</center>
+
+   <div class="edu-one">
+   
+      
+    <ul class="drop">
+        <li>2019-2022</li>
+        <li>
+            BTECH- VAAGDEVI COLLEGE OF ENGINEERING
+        </li>
+        
+           
+        
+    </ul>
+   
+       
+
+   </div>
+   <div class="edu-inner">
+    <ul class="edu-ul1">
+        <li>I have btech in the vaagdevi college of engineering in the mechanical engineering stream in the warangal city</li>
+    </ul>
+
+   </div>
+</div>
+ 
+<div class="edu-two">
+    <ul class="dropone">
+        <li>2016-2019</li>
+        <li>
+            POLYTECHNIC- VMR POLYTECHNIC
+        </li>
+        
+           
+        
+    </ul>
+
+</div>
+<div class="edu-twoinner">
+    <ul class="edu-ul2">
+        <li>
+            I have done the polytechnic in the stream of mechanical engineering in the city of warangal
+        </li>
+    </ul>
+
+</div>
+
+<div class="edu-three">
+    <ul class="droptwo">
+        <li>2016</li>
+        <li>
+            HIGHSCHOOL-  UNIQUE HIGH SCHOOL
+        </li>
+        
+          
+        
+    </ul>
+
+</div>
+<div class="edu-threeinner">
+    <ul class="edu-ul3">
+        <li>
+            I have the schooling in the unique high school in the warangal
+        </li>
+    </ul>
+
+</div>
+
+<div class="down-div">
+    <ul class="ul-div">
+        <li>
+            Follow me on
+            
+            <a href="https://www.linkedin.com/in/n-hari-krishna-454b7616b/" target="_blank" title="LinkedIn">
+                <i class="fab fa-linkedin fa-2x"></i>
+            </a>
+        </li>
+       <br>
+      
+       
+        <li>
+            DESIGNED AND DEVELOPED BY HARIKRISHNA NAKKA
+        </li>
+        <br>
+        <li>
+            ©2023 Myportfolio, Inc.
+        </li>
+        <li>
+            All rights reserved. 
+        </li>
+    </ul>
+
+</div>
+   
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
